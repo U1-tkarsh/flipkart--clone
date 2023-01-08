@@ -1,0 +1,116 @@
+.category-container{
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    left: 0;
+    justify-content: center;
+    background-color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bolder;
+    flex-direction: row;
+}
+
+.search{
+    border: 0px;
+    outline: 0px;
+    width: 600px;
+}
+
+.search-icon{
+    margin-right: 10px;
+}
+
+.login{
+    background-color: white;
+    color: blue;
+    border-radius: 0px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.single-card{
+    border: 0px;
+    height: 50%;
+}
+
+.img{
+    border: 0px;
+    height: 50%;
+    transform: scale(0.95);
+}
+
+.img:hover{
+    border: 0px;
+    height: 50%;
+    transform: scale(1);
+}
+
+.button{
+    float: right;
+    width: 10%;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #172337;
+    color: #878787;;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foot{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.foot:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 12px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.footBox{
+    color: #fff;
+    margin-left: 8px;
+    cursor: pointer;
+    text-align: left;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.rowF{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#imgcon{
+    margin-top: 20px;
+}
